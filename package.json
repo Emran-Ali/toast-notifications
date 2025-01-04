@@ -1,0 +1,20 @@
+{
+  "name": "em-toast-notifications",
+  "version": "1.0.0",
+  "main": "dist/toast.js",
+  "scripts": {
+  "build": "tsc && postcss src/toast.css -o dist/toast.css",
+  "prepare": "npm run build"
+},
+"types": "dist/toast.d.ts",
+"style": "dist/toast.css",
+"author": "Emran",
+"license": "ISC",
+"description": "",
+"devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "postcss-cli": "^11.0.0",
+    "typescript": "^5.7.2"
+  }
+}
